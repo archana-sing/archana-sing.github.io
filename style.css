@@ -1,0 +1,499 @@
+body{
+    background: #fff url(http://www.emilyridge.ie/wp-content/themes/skeleostrnge/lib/img/bg.png) repeat;
+    overflow: scroll;
+    color: #525d68;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Varela Round', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  .App {
+    background: #fff url(http://www.emilyridge.ie/wp-content/themes/skeleostrnge/lib/img/bg.png) repeat;
+    height: 100%;
+    /* text-align: center; */
+  }
+ 
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    body{
+      font-size: 12px;
+      text-align : center;
+    }
+ 
+    .icons{
+        color : #06BC9B;
+        font-size: 25px;
+        margin-left: 0px;
+    }
+  .lang_pic{
+      border-radius: 50%;
+      height : 50px;
+      width: 50px;
+      padding: 10px;
+      border :  5px solid #06BC9B;
+  }
+  .contact_icons{
+      color : #06BC9B;
+      font-size: 45px;
+      margin-left: 30px;
+  }
+  .contact_icons:hover{
+      color: #525d68;
+  }
+  .resumeButton{
+      background-image: linear-gradient(left,#1ba49c,#06BC9B) ;
+      background-color: #06BC9B !important;
+      cursor : pointer;
+      color : #fff;
+      padding : 15px;
+      text-align: center;
+      border : none;
+      width: fit-content;
+      margin: 10px auto;
+      margin-bottom: 50px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      outline: none;
+  }
+  
+  .profile_pic{
+      border-radius: 50%;
+      height : 100px;
+      width: 100px;
+      border: 5px solid #06BC9B;
+  }
+  .gitComit_image{
+      height: 200px;
+      width: 400px;
+  }
+  .proficiencies{
+      color : #06BC9B;
+       height : 100px;
+       width: 100px;
+       padding: 20px;
+       fill : #06BC9B
+   }
+  .lang_cards{
+      padding: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 0px;
+      margin-right: 20px;
+      display: flex;
+      flex-direction: column;
+     align-content: center;
+  }
+  .container_lang_div{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 400px;
+      margin: 10px auto;
+  }
+  .container_proficiency{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 200px;
+      margin: 10px auto;
+      margin-bottom: 30px;
+  }
+  
+  .info_div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin: 10px auto;
+  }
+  .project_cards{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 hsla(0,0%,75%,.5);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 10px 40px 10px;
+    border : 3px solid silver;
+    border-radius: 8px;
+}
+.project_images{
+    height: 200px;
+    width: 300px;
+    border : 1px solid silver;
+    border-radius: 5px;
+}
+.project_video{
+    width: 400px;
+    height: 200px;
+}
+.preview_button{
+    background-image: linear-gradient(left,#1ba49c,#06BC9B) ;
+    background-color: #06BC9B;
+    cursor : pointer;
+    color : #fff;
+    padding : 5px 10px;
+    text-align: center;
+    border : none;
+    width: fit-content;
+    margin-right: 20px;
+   margin-top: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+}
+.tech_stacks_icons{
+    color : #06BC9B;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.preview_button:hover{
+    background-color: white;
+    color:#06BC9B;
+    border : 1px solid #06BC9B;
+}
+.proect_cards_text{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 20px;
+}
+  }
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    body{
+        text-align : center;
+    }
+    .contact_div{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 650px;
+      margin: 10px auto;
+  }
+    .icons{
+      color : #06BC9B;
+      font-size: 25px;
+      margin-left: 0px;
+  }
+  .lang_pic{
+      border-radius: 50%;
+      height : 50px;
+      width: 50px;
+      padding: 10px;
+      border :  5px solid #06BC9B;
+  }
+  .contact_icons{
+      color : #06BC9B;
+      font-size: 45px;
+      margin-left: 30px;
+  }
+  .contact_icons:hover{
+      color: #525d68;
+  }
+  .resumeButton{
+      background-image: linear-gradient(left,#1ba49c,#06BC9B) ;
+      background-color: #06BC9B !important;
+      cursor : pointer;
+      color : #fff;
+      padding : 20px;
+      text-align: center;
+      border : none;
+      width: fit-content;
+      
+      margin: 10px auto;
+      margin-bottom: 50px;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: 600;
+      outline: none;
+  }
+  
+  .profile_pic{
+      border-radius: 50%;
+      height : 150px;
+      width: 150px;
+      border: 5px solid #06BC9B;
+  }
+  .gitComit_image{
+      height: 300px;
+      width: 750px;
+  }
+  .proficiencies{
+      color : #06BC9B;
+       height : 100px;
+       width: 100px;
+       padding: 20px;
+       fill : #06BC9B
+   }
+  .lang_cards{
+      padding: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 50px;
+      margin-right: 50px;
+      display: flex;
+      flex-direction: column;
+     align-content: center;
+  }
+  .container_lang_div{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 800px;
+      margin: 10px auto;
+  }
+  .container_proficiency{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 600px;
+      margin: 10px auto;
+      margin-bottom: 30px;
+  }
+  .project_cards{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 hsla(0,0%,75%,.5);
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 20px 40px 20px;
+    border : 3px solid silver;
+    border-radius: 8px;
+}
+.project_video{
+    width: 700px;
+    height: 400px;
+}
+.preview_button{
+    background-image: linear-gradient(left,#1ba49c,#06BC9B) ;
+    background-color: #06BC9B;
+    cursor : pointer;
+    color : #fff;
+    padding : 10px 15px;
+    text-align: center;
+    border : none;
+    width: fit-content;
+    margin-right: 20px;
+   margin-top: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+}
+.tech_stacks_icons{
+    color : #06BC9B;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.preview_button:hover{
+    background-color: white;
+    color:#06BC9B;
+    border : 1px solid #06BC9B;
+}
+.proect_cards_text{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 20px;
+}
+} 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        margin : auto;
+        text-align: center;
+    }
+    .profile_pic{
+        border-radius: 50%;
+        height : 150px;
+        width: 150px;
+        border: 5px solid #06BC9B;
+    }
+    h4{
+        font-size: 14px;
+        font-weight: 600;
+        padding-top: 8px;
+    }
+    .container_lang_div{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 1200px;
+        margin: 10px auto;
+    }
+    .lang_pic{
+        border-radius: 50%;
+        height : 80px;
+        width: 80px;
+        padding: 10px;
+        border :  5px solid #06BC9B;
+    }
+    .lang_cards{
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+       align-content: center;
+    }
+    .proficiencies{
+       color : #06BC9B;
+        height : 130px;
+        width: 130px;
+        padding: 20px;
+        fill : #06BC9B
+    }
+    .icons{
+        color : #06BC9B;
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    .contact_icons{
+        color : #06BC9B;
+        font-size: 45px;
+        margin-left: 30px;
+    }
+    .contact_icons:hover{
+        color: #525d68;
+    }
+    .download_icon{
+        color : white;
+        font-size: 20px;
+    }
+    .resumeButton{
+        background-image: linear-gradient(left,#1ba49c,#06BC9B) ;
+        background-color: #06BC9B !important;
+        cursor : pointer;
+        color : #fff;
+        padding : 20px;
+        text-align: center;
+        border : none;
+        width: fit-content;
+        
+        margin: 10px auto;
+        margin-bottom: 50px;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: 600;
+        outline: none;
+    }
+    
+    .container_proficiency{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 1200px;
+        margin: 10px auto;
+        margin-bottom: 30px;
+    }
+    .divider_div{
+        border-bottom: 2px solid rgb(235, 232, 232);
+    }
+    h3{
+        font-size: 18px;
+        font-weight: 600;
+        padding-top: 8px;
+    }
+    .contact_div{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 650px;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 40px auto;
+    }
+    .gitComit_image{
+        height: 400px;
+        width: 1200px;
+    }
+    .project_images{
+        height: 300px;
+        width: 500px;
+        border : 1px solid silver;
+        border-radius: 5px;
+    }
+    .project_cards{
+        width : 1000px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 hsla(0,0%,75%,.5);
+        padding: 30px;
+        display: flex;
+        margin: 30px auto;
+        /* border : 3px solid silver; */
+        border-radius: 8px;
+    }
+    /* #06BC9B */
+    .proect_cards_text{
+       
+        width:400px;
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
+    .preview_div{
+        display: flex;
+        justify-content:left;
+        align-items: center;
+    }
+    .icons{
+        color : #06BC9B;
+        font-size: 20px;
+        
+    }
+    .link{
+        text-decoration: none;
+        margin-left: 10px;
+        color : #525d68;
+    }
+    .preview_button{
+        background-image: linear-gradient(left,#1ba49c,#06BC9B) ;
+        background-color: #06BC9B;
+        cursor : pointer;
+        color : #fff;
+        padding : 10px 15px;
+        text-align: center;
+        border : none;
+        width: fit-content;
+        margin-right: 20px;
+       margin-top: 20px;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: 500;
+        outline: none;
+    }
+    .tech_stacks_icons{
+       fill : #06BC9B;
+        font-size: 30px;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    .preview_button:hover{
+        background-color: white;
+        color:#06BC9B;
+        border : 1px solid #06BC9B;
+    }
+  }
+
+  
+ 
