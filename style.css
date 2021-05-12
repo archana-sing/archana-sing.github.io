@@ -23,11 +23,24 @@ body{
       font-size: 12px;
       text-align : center;
     }
- 
+    h4{
+        font-size: 10px;
+        font-weight: 600;
+        padding-top: 8px;
+    }
     .icons{
         color : #06BC9B;
         font-size: 25px;
         margin-left: 0px;
+    }
+    .contact_div{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 650px;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 40px auto;
     }
   .lang_pic{
       border-radius: 50%;
@@ -162,10 +175,12 @@ body{
     border : 1px solid #06BC9B;
 }
 .proect_cards_text{
+    padding-top: 50px;   
+    width:400px;
     display: flex;
     text-align: left;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 30px;
 }
   }
   /* Medium devices (landscape tablets, 768px and up) */
@@ -173,13 +188,26 @@ body{
     body{
         text-align : center;
     }
+    h3{
+        font-size: 18px;
+        font-weight: 600;
+        padding-top: 8px;
+    }
+    h4{
+        font-size: 14px;
+        font-weight: 600;
+        padding-top: 8px;
+    }
     .contact_div{
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      width: 650px;
-      margin: 10px auto;
-  }
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 650px;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 40px auto;
+    }
+   
     .icons{
       color : #06BC9B;
       font-size: 25px;
@@ -239,8 +267,8 @@ body{
       padding: 20px;
       margin-top: 20px;
       margin-bottom: 20px;
-      margin-left: 50px;
-      margin-right: 50px;
+      margin-left: 20px;
+      margin-right: 20px;
       display: flex;
       flex-direction: column;
      align-content: center;
@@ -271,10 +299,7 @@ body{
     border : 3px solid silver;
     border-radius: 8px;
 }
-.project_video{
-    width: 700px;
-    height: 400px;
-}
+
 .preview_button{
     background-image: linear-gradient(left,#1ba49c,#06BC9B) ;
     background-color: #06BC9B;
@@ -298,11 +323,17 @@ body{
     margin-right: 20px;
 }
 .preview_button:hover{
+    padding : 9px 14px;
     background-color: white;
     color:#06BC9B;
     border : 1px solid #06BC9B;
 }
+/* .project_images{
+    height: 200px;
+    width: 300px;
+} */
 .proect_cards_text{
+    /* margin-top: 20px; */
     display: flex;
     text-align: left;
     flex-direction: column;
@@ -435,7 +466,7 @@ body{
         padding: 30px;
         display: flex;
         margin: 30px auto;
-        /* border : 3px solid silver; */
+        border : 1px solid silver;
         border-radius: 8px;
     }
     /* #06BC9B */
