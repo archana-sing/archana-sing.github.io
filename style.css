@@ -175,7 +175,7 @@
     border : 1px solid #06BC9B;
 }
 .proect_cards_text{
-    padding-top: 50px;   
+    padding-top: 20px;   
     width:400px;
     display: flex;
     text-align: left;
@@ -500,7 +500,6 @@ body{
     }
     /* #06BC9B */
     .proect_cards_text{
-       
         width:400px;
         display: flex;
         text-align: left;
