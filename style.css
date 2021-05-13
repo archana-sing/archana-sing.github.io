@@ -50,10 +50,11 @@ body{
       border :  5px solid #06BC9B;
   }
   .contact_icons{
-      color : #06BC9B;
-      font-size: 45px;
-      margin-left: 30px;
-  }
+    color : #06BC9B;
+    height: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
   .contact_icons:hover{
       color: #525d68;
   }
@@ -221,10 +222,11 @@ body{
       border :  5px solid #06BC9B;
   }
   .contact_icons{
-      color : #06BC9B;
-      font-size: 45px;
-      margin-left: 30px;
-  }
+    color : #06BC9B;
+    height: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
   .contact_icons:hover{
       color: #525d68;
   }
@@ -396,8 +398,9 @@ body{
     }
     .contact_icons{
         color : #06BC9B;
-        font-size: 45px;
+        height: 40px;
         margin-left: 30px;
+        margin-bottom: 20px;
     }
     .contact_icons:hover{
         color: #525d68;
@@ -411,11 +414,10 @@ body{
         background-color: #06BC9B !important;
         cursor : pointer;
         color : #fff;
-        padding : 20px;
+        padding : 17px;
         text-align: center;
         border : none;
         width: fit-content;
-        
         margin: 10px auto;
         margin-bottom: 50px;
         border-radius: 6px;
